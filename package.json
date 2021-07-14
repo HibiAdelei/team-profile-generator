@@ -4,7 +4,8 @@
   "description": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)   # Description    This is a simple application designed to generate a webpage based on user input. It creates a neatly formatted roster for a project or work team.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
+
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/HibiAdelei/team-profile-generator#readme",
   "dependencies": {
-    "inquirer": "^8.1.1"
+    "inquirer": "^8.1.1",
+    "jest": "^27.0.6"
   }
 }
